@@ -15,11 +15,11 @@ body {
     width: 100%;
 }
 
-body{
+body {
     background-color: #F7F7F7;
 }
 
-#nav{
+#nav {
     width: 100%;
     /* background-color: bisque; */
     position: fixed;
@@ -30,24 +30,24 @@ body{
     justify-content: space-between;
 }
 
-#nav .nav-part1{
+#nav .nav-part1 {
     /* background: red; */
     height: 82px;
     overflow: hidden;
 }
 
-#nav .nav-part1 img{
+#nav .nav-part1 img {
     display: block;
 }
 
-#nav .nav-part2{
+#nav .nav-part2 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
 
-.nav-part2 .links a{
+.nav-part2 .links a {
     text-decoration: none;
     color: #333;
     font-size: 14px;
@@ -56,27 +56,28 @@ body{
     margin: 0 30px;
 }
 
-.icons{
+.icons {
     background: #F7F7F7;
     border-radius: 50px;
     padding: 6px;
 }
 
-.nav-part2 .icons i{
+.nav-part2 .icons i {
     font-size: 18px;
     font-weight: 100;
     margin: 0px 20px;
 }
 
-#cursor{
+#cursor {
     height: 250px;
     width: 250px;
     border-radius: 50%;
     position: fixed;
     background-color: rgba(224, 225, 222, 0.695);
-    transform: translate(-50%,-50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
 }
-.line-elem{
+
+.line-elem {
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
@@ -87,7 +88,7 @@ body{
     font-size: 14px;
 }
 
-.line{
+.line {
     width: 98%;
     overflow: hidden;
     display: flex;
@@ -171,7 +172,7 @@ body{
     scale: 1.1;
 }
 
-#page2 .elem .dets{
+#page2 .elem .dets {
     height: 48px;
     width: 75%;
     border-radius: 50px;
@@ -183,7 +184,7 @@ body{
 
 
 
-.dets ul{
+.dets ul {
     padding-top: 14px;
     display: flex;
     align-items: center;
@@ -191,13 +192,13 @@ body{
     /* gap: 14px; */
 }
 
-.dets ul .point{
+.dets ul .point {
     background: #000;
     padding: 5px;
     border-radius: 50px;
 }
 
-.dets ul li{
+.dets ul li {
     text-align: center;
     list-style: none;
     text-transform: uppercase;
@@ -206,7 +207,7 @@ body{
 }
 
 
-.card-details{
+.card-details {
     height: 200px;
     width: 100%;
     border-bottom-left-radius: 30px;
@@ -215,23 +216,23 @@ body{
     z-index: 9;
     background-color: palegoldenrod;
     text-align: center;
-    transition:  0.25s cubic-bezier(.22,.57,.12,.96);
+    transition: 0.25s cubic-bezier(.22, .57, .12, .96);
     display: none;
 }
 
-.card-details #cards{
+.card-details #cards {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.card-details #cards img{
+.card-details #cards img {
     height: 70px;
     width: 80px;
 }
 
-.card-details #cards p{
+.card-details #cards p {
     text-transform: uppercase;
     font-size: 12px;
     margin-top: 23px;
@@ -239,23 +240,23 @@ body{
 
 
 
-#page4{
+#page4 {
     min-height: 80vh;
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin:  9vh 4vh;
+    margin: 9vh 4vh;
 }
 
-#page4 .left{
+#page4 .left {
     font-family: futura;
     font-size: 4.3vw;
     line-height: 4.3vw;
     text-transform: uppercase;
 }
 
-#page4 .right{
+#page4 .right {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -266,17 +267,17 @@ body{
     margin-right: 90px;
 }
 
-#page4 .right p{
+#page4 .right p {
     font-size: 15px;
     line-height: 2vw;
 }
 
-.right .btn{
+.right .btn {
     position: relative;
     padding-bottom: 8px;
 }
 
-.right .btn a{
+.right .btn a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
@@ -289,7 +290,7 @@ body{
     color: black;
 }
 
-.right .btn #line{
+.right .btn #line {
     position: absolute;
     top: 100%;
     left: 0px;
@@ -300,9 +301,9 @@ body{
     transform: translate(0px, 0px);
 }
 
-.right #line:hover{
+.right #line:hover {
     transform-origin: 100% 100%;
-    transform: scale(1,1);
+    transform: scale(1, 1);
 }
 
 
@@ -316,7 +317,7 @@ body{
     position: relative;
 }
 
-#page3 .child{
+#page3 .child {
     height: 74vh;
     width: 43vw;
     position: relative;
@@ -326,14 +327,14 @@ body{
     margin-top: 33vh;
 }
 
-#page3 .child img{
+#page3 .child img {
     position: absolute;
     height: 100%;
     width: 80%;
     margin-bottom: 98vh;
 }
 
-#page3 .data{
+#page3 .data {
     position: relative;
     text-transform: uppercase;
     display: flex;
@@ -348,7 +349,7 @@ body{
 
 
 
-#page6{
+#page6 {
     min-height: 120vh;
     width: 100%;
     position: relative;
@@ -372,32 +373,33 @@ body{
     justify-content: start;
 }
 
-#page6 .elem .text{
+#page6 .elem .text {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     gap: 10px;
     margin-right: 87px;
     padding-bottom: 98px;
 }
 
-#page6 .elem .text h1{
+#page6 .elem .text h1 {
     margin-bottom: 23px;
 }
 
-#page6 .elem .text h1{
+#page6 .elem .text h1 {
     font-family: futura;
     font-size: 23px;
 }
 
-#page6 .elem .text p{
+#page6 .elem .text p {
     font-size: 15.6px;
     font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
     font-weight: 100;
     line-height: 1.6;
 }
-#page6 .elem .text .btn{
+
+#page6 .elem .text .btn {
     font-size: 11px;
     word-spacing: 3px;
     font-weight: 300;
@@ -415,7 +417,7 @@ body{
 }
 
 
-.email{
+.email {
     padding: 1vw 2vw;
     display: flex;
     align-items: center;
@@ -423,7 +425,7 @@ body{
 }
 
 
-.email input{
+.email input {
     width: 100%;
     outline: none;
     background: none;
@@ -433,12 +435,12 @@ body{
     text-transform: uppercase;
 }
 
-.email input::placeholder{
+.email input::placeholder {
     font-weight: bold;
     color: black;
 }
 
-.email #arrow{
+.email #arrow {
     font-size: 23px;
     cursor: pointer;
 }
@@ -446,7 +448,7 @@ body{
 
 
 
-#page7{
+#page7 {
     min-height: 100vh;
     width: 100%;
     position: relative;
@@ -458,39 +460,39 @@ body{
     grid-template-columns: 1fr 4fr 1fr;
 }
 
-#page7 ul li{
+#page7 ul li {
     list-style: none;
     padding: 2px;
     cursor: pointer;
 }
 
-#page7 ul li:hover{
+#page7 ul li:hover {
     color: gray;
 }
 
-#page7 ul .first-item{
+#page7 ul .first-item {
     font-size: 12px;
     padding-bottom: 16px;
     color: gray;
     font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
 }
 
-#page7 .mid-list{
+#page7 .mid-list {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.mid-list img{
+.mid-list img {
     width: 25%;
 }
 
-.mid-list .links{
+.mid-list .links {
     margin-top: 14vh;
 }
 
-.mid-list .links a{
+.mid-list .links a {
     text-decoration: none;
     color: gray;
     text-transform: uppercase;
@@ -498,13 +500,13 @@ body{
     padding-right: 22px;
 }
 
-#page7 #list2{
+#page7 #list2 {
     text-align: right;
 }
 
 
 
-#footer{
+#footer {
     text-align: center;
     font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
     font-size: 13px;
@@ -523,47 +525,53 @@ body{
 
 
 @media (max-width:600px) {
-    
-    #nav{
+
+    #nav {
         padding: 15px;
     }
-    
-    
-    #nav .nav-part1 img{
+
+
+    #nav .nav-part1 {
+        /* background: red; */
+        height: 89px;
+        overflow: hidden;
+    }
+
+    #nav .nav-part1 img {
         display: block;
         height: 89px;
         width: 80px;
     }
 
-    #nav .nav-part1 #logo2{
+    #nav .nav-part1 #logo2 {
         height: 35px;
         width: 54px;
     }
-    
-    #nav .nav-part2{
+
+    #nav .nav-part2 {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 30px;
     }
-    
+
     .nav-part2 .links {
         display: none;
     }
-    
-    .icons{
+
+    .icons {
         background: #F7F7F7;
         border-radius: 50px;
         padding: 6px;
     }
-    
-    .nav-part2 .icons i{
+
+    .nav-part2 .icons i {
         font-size: 18px;
         font-weight: 100;
         margin: 0px 20px;
     }
-    
-    
+
+
     #page1 {
         min-height: 70vh;
         width: 100%;
@@ -590,19 +598,19 @@ body{
         left: 50%;
         scale: 1;
         opacity: 1;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
     }
 
 
-    
-.line-elem{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 
-.line{
-    width: 94vw;
-}
+    .line-elem {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .line {
+        width: 94vw;
+    }
 
 
     #page2 {
@@ -623,7 +631,7 @@ body{
         overflow: hidden;
     }
 
-    #page2 .elem .dets{
+    #page2 .elem .dets {
         height: 40px;
         width: 75%;
         border-radius: 50px;
@@ -631,174 +639,175 @@ body{
         z-index: 9;
         background-color: palegoldenrod;
     }
-    
-    
-#page3 {
-    min-height: 120vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    position: relative;
-}
-
-#page3 .child{
-    height: 54vh;
-    width: 88vw;
-    position: relative;
-    padding: 10vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#page3 .child img{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
 
 
-#page3 .data{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 13px;
-    font-family: "Helvetica Now Text";
-    font-weight: 230;
-    color: rgb(44, 44, 44);
-    gap: 4px;
-}
+    #page3 {
+        min-height: 120vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        position: relative;
+    }
 
-.mid2 .line-elem{
-    font-size: 12px;
-}
+    #page3 .child {
+        height: 54vh;
+        width: 88vw;
+        position: relative;
+        padding: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-
-
-#page4{
-    min-height: 80vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin: 1.5vh 1vh;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 36px;
-}
-
-#page4 .left{
-    font-size: 8.4vw;
-    line-height: 9.3vw;
-    text-align: center;
-}
-
-#page4 .right{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-}
-
-#page4 .right p{
-    font-size: 16px;
-    line-height: 7vw;
-    letter-spacing: 0.01em;
-}
+    #page3 .child img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
 
 
-.right .btn #line{
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    width: 100%;
-    height: 1px;
-    background-color: black;
-    transform-origin: 0% 0%;
-    transform: translate(0px, 0px);
-}
+    #page3 .data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+        font-family: "Helvetica Now Text";
+        font-weight: 230;
+        color: rgb(44, 44, 44);
+        gap: 4px;
+    }
 
-.right #line:hover{
-    transform-origin: 100% 100%;
-    transform: scale(1,1);
-}
+    .mid2 .line-elem {
+        font-size: 12px;
+    }
 
 
 
-#page6{
-    margin-top: 9vh;
-    margin-bottom: 5vh;
-    display: grid;
-    grid-template-columns: 1fr ;
-    padding: 1vw 3vw ;
-    gap: 20px;
-}
+    #page4 {
+        min-height: 80vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 1.5vh 1vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 36px;
+    }
+
+    #page4 .left {
+        font-size: 8.4vw;
+        line-height: 9.3vw;
+        text-align: center;
+    }
+
+    #page4 .right {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        padding: 5px;
+    }
+
+    #page4 .right p {
+        font-size: 16px;
+        line-height: 7vw;
+        letter-spacing: 0.01em;
+    }
 
 
-#page6 .elem {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .right .btn #line {
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        transform-origin: 0% 0%;
+        transform: translate(0px, 0px);
+    }
 
-#page6 .img1{
-    order: 2;
-}
-
-#page6 .img2{
-    order: 1;
-}
-
-#page6 .elem .text{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content:flex-start;
-    gap: 10px;
-    padding-bottom: 23px;
-    margin: 0;
-}
-
-#page6 .elem .text h1{
-    margin-bottom: 18px;
-    font-size: 26px;
-}
-
-.email input{
-    font-size: 14px;
-    height: 12px;
-}
-.email {
-    padding: 1vw 4vw;
-}
+    .right #line:hover {
+        transform-origin: 100% 100%;
+        transform: scale(1, 1);
+    }
 
 
-#page7{
-    padding: 3vw 2.5vw;
-    display: flex;
-    min-height: 35vh;
-}
 
-#page7 #list2 {
-    text-align: start;
-}
+    #page6 {
+        margin-top: 9vh;
+        margin-bottom: 5vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1vw 3vw;
+        gap: 20px;
+    }
 
-#page7 .mid-list{
-    display: none;
-}
 
-#footer{
-    text-align: start;
-    padding: 4vw 4.5vw;
-    line-height: 1.8;
-}
+    #page6 .elem {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #page6 .img1 {
+        order: 2;
+    }
+
+    #page6 .img2 {
+        order: 1;
+    }
+
+    #page6 .elem .text {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+        padding-bottom: 23px;
+        margin: 0;
+    }
+
+    #page6 .elem .text h1 {
+        margin-bottom: 18px;
+        font-size: 26px;
+    }
+
+    .email input {
+        font-size: 14px;
+        height: 12px;
+    }
+
+    .email {
+        padding: 1vw 4vw;
+    }
+
+
+    #page7 {
+        padding: 3vw 2.5vw;
+        display: flex;
+        min-height: 35vh;
+    }
+
+    #page7 #list2 {
+        text-align: start;
+    }
+
+    #page7 .mid-list {
+        display: none;
+    }
+
+    #footer {
+        text-align: start;
+        padding: 4vw 4.5vw;
+        line-height: 1.8;
+    }
 
 
 
